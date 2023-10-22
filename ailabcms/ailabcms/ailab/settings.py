@@ -32,7 +32,7 @@ DATA_DIR = os.path.join(BASE_DIR, 'ailab', 'templates')
 SECRET_KEY = '$%fge_21^x*n&wc*k#^azid5fu7y!df8_z&3&514sb^k(hy9%='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
