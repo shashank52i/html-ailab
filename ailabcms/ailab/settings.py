@@ -1,6 +1,9 @@
 import os  # isort:skip
 gettext = lambda s: s
-DATA_DIR = os.path.dirname(os.path.dirname(__file__))
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+DATA_DIR = os.path.join(BASE_DIR, 'ailab', 'templates')
+
+
 """
 Django settings for ailab project.
 
