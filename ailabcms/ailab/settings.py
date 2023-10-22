@@ -214,7 +214,7 @@ CMS_TEMPLATES = (
     ('fullwidth.html', 'Fullwidth'),
     ('sidebar_left.html', 'Sidebar Left'),
     ('sidebar_right.html', 'Sidebar Right'),
-    ('About.html', 'About')
+    ('indec.html', 'indec')
 
 )
 
