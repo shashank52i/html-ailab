@@ -1,0 +1,30 @@
+{% load cms_tags menu_tags sekizai_tags %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Seminars - IoT as a Service Research Group{% endblock title %}</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    {% render_block "css" %}
+</head>
+<body>
+    {% cms_toolbar %}
+    <div class="container">
+        <ul class="nav">
+            {% show_menu 0 100 100 100 %}
+        </ul>
+        <div class="content">
+            <main>
+                <h1>Seminars</h1>
+                <p>
+                    Explore our seminars and workshops related to IoT and cutting-edge technologies. We regularly organize and participate in events to share knowledge and insights with the community.
+                </p>
+                <!-- Add information about upcoming seminars and workshops here -->
+            </main>
+        </div>
+        {% render_block "js" %}
+    </div>
+</body>
+</html>

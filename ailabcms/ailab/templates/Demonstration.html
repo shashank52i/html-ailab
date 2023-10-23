@@ -1,0 +1,29 @@
+{% load cms_tags menu_tags sekizai_tags %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Demonstrations - IoT as a Service Research Group{% endblock title %}</title>
+    {% render_block "css" %}
+</head>
+<body>
+    {% cms_toolbar %}
+    <div class="container">
+        <ul class="nav">
+            {% show_menu 0 100 100 100 %}
+        </ul>
+        <div class="content">
+            <main>
+                <h1>Demonstrations</h1>
+                <p>
+                    Welcome to the Demonstrations page of the IoT as a Service Research Group. Here, you can explore video demonstrations of IoT devices for health estimation, underground imaging, and multiple tutorials designed for students.
+                </p>
+                <!-- Add content related to demonstrations and videos here -->
+            </main>
+        </div>
+        {% render_block "js" %}
+    </div>
+</body>
+</html>

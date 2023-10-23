@@ -1,0 +1,30 @@
+{% load cms_tags menu_tags sekizai_tags %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Teaching Tutorials - IoT as a Service Research Group{% endblock title %}</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    {% render_block "css" %}
+</head>
+<body>
+    {% cms_toolbar %}
+    <div class="container">
+        <ul class="nav">
+            {% show_menu 0 100 100 100 %}
+        </ul>
+        <div class="content">
+            <main>
+                <h1>Teaching Tutorials</h1>
+                <p>
+                    Access a collection of teaching tutorials and resources designed to help students and educators learn more about IoT technologies and their applications. Our tutorials cover a wide range of topics related to IoT.
+                </p>
+                <!-- Add information about available teaching tutorials and resources here -->
+            </main>
+        </div>
+        {% render_block "js" %}
+    </div>
+</body>
+</html>

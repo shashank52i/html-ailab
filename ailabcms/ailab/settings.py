@@ -216,6 +216,17 @@ CMS_TEMPLATES = (
     ('sidebar_left.html', 'Sidebar Left'),
     ('sidebar_right.html', 'Sidebar Right'),
     ('indec.html', 'indec'),
+    ('About.html', 'About'),
+    ('base.html', 'Base'),
+    ('Demonstration.html', 'Demonstration'),
+    ('fullwidth.html', 'Fullwidth'),
+    ('index.html', 'Index'),
+    ('Open.html', 'Open'),
+    ('People.html', 'People'),
+    ('Publication.html', 'Publication'),
+    ('Research.html', 'Research'),
+    ('Semi.html', 'Semi'),
+    ('TeacheingTut.html', 'Teaching Tutorials'),
 )
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
