@@ -41,18 +41,7 @@
         <!-- Image Carousel Section -->
         <section class="carousel" aria-label="Image Carousel">
             <div class="carousel__viewport">
-                <div class="carousel__slide">
-                    <img src="{% static 'img/slide1.jpg' %}" alt="Slide 1">
-                </div>
-                <div class="carousel__slide">
-                    <img src="{% static 'img/slide2.jpg' %}" alt="Slide 2">
-                </div>
-                <div class ="carousel__slide">
-                    <img src="{% static 'img/slide3.jpg' %}" alt="Slide 3">
-                </div>
-                <div class="carousel__slide">
-                    <img src="{% static 'img/slide4.jpg' %}" alt="Slide 4">
-                </div>
+                {% placeholder "image_carousel" %}
             </div>
             <div class="carousel__navigation">
                 <button class="carousel__prev" aria-label="Previous Slide">Previous</button>
@@ -88,6 +77,7 @@
     <!-- Add JS -->
     <script src="{% static 'js/main.js' %}"></script>
     {% render_block "js" %}
+    
     <!-- Footer Section -->
     <footer>
         <p>&copy; 2023 IoT as a Service Research Group</p>
