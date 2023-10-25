@@ -6,6 +6,6 @@ from .models import ailab
 
 @plugin_pool.register_plugin
 class ailabPlugin(CMSPluginBase):
-    model = CMSPlugin
+    model = ailab
     render_template = "index.html"
     cache = False
